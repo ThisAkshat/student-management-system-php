@@ -3,7 +3,7 @@ include "db.php";
 $sql = "SELECT * FROM students";
 $result = mysqli_query($conn, $sql);
 ?>
-
+ 
 <!DOCTYPE html>
 <html>
 <head>
